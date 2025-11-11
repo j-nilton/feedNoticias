@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Article } from '../models/Article';
 
 const NEWS_API_BASE = 'https://newsapi.org/v2';
-const API_KEY = 'f630ea65a6d340cb8c705652c2441a36';
+const API_KEY = 'a01dfee5f32444d18fbb4d93afd66784';
 
 export const NewsService = {
   async fetchEverything(query: string, pageSize = 50): Promise<Article[]> {
